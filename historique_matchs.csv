@@ -1,0 +1,301 @@
+home_team,away_team,home_rank,away_rank,home_form,away_form,home_goals,away_goals,result
+Nice,Marseille,6,6,11,10,2,3,A
+Lens,Rennes,6,20,0,14,1,1,D
+Lille,Lyon,5,7,11,3,0,0,D
+Paris SG,Lille,11,1,12,9,3,3,D
+Lyon,Nice,13,18,11,3,1,2,A
+Lille,Nice,1,3,7,14,0,1,A
+Lyon,Rennes,16,5,10,7,1,1,D
+Lens,Marseille,18,11,8,6,4,3,H
+Marseille,Nice,6,9,3,15,1,1,D
+Paris SG,Lens,2,3,6,14,4,4,D
+Rennes,Lens,18,16,10,8,1,4,A
+Lens,Lille,19,13,8,10,0,4,A
+Monaco,Lille,10,20,3,8,2,2,D
+Paris SG,Marseille,1,2,15,5,4,0,H
+Nice,Lyon,2,3,11,11,3,2,H
+Nice,Monaco,15,11,13,4,2,4,A
+Lyon,Nice,13,4,3,3,4,3,H
+Monaco,Lille,4,8,2,1,1,4,A
+Lens,Lyon,9,11,9,10,0,0,D
+Lens,Marseille,15,14,12,4,3,4,A
+Lens,Marseille,15,16,4,2,1,4,A
+Nice,Lille,4,6,0,2,1,3,A
+Monaco,Lille,15,18,8,5,2,2,D
+Rennes,Monaco,19,12,1,4,2,0,H
+Marseille,Lens,15,4,11,8,1,4,A
+Nice,Monaco,18,19,10,1,2,3,A
+Nice,Lille,12,4,8,0,4,4,D
+Lille,Marseille,3,4,8,5,3,1,H
+Nice,Marseille,20,16,0,0,2,3,A
+Paris SG,Lille,1,7,3,15,0,3,A
+Paris SG,Lens,4,18,15,2,0,0,D
+Paris SG,Lyon,19,20,6,13,3,3,D
+Paris SG,Lyon,16,5,15,13,4,2,H
+Rennes,Lyon,18,10,1,12,3,4,A
+Lyon,Lille,5,4,15,14,4,3,H
+Paris SG,Nice,7,1,12,13,0,4,A
+Marseille,Paris SG,20,15,7,11,2,2,D
+Paris SG,Rennes,15,14,14,10,3,2,H
+Lille,Rennes,7,10,2,1,1,4,A
+Lens,Paris SG,14,12,6,3,3,2,H
+Nice,Monaco,7,20,12,1,0,4,A
+Paris SG,Lens,3,14,14,1,3,0,H
+Monaco,Lille,5,13,12,3,4,4,D
+Nice,Rennes,16,20,3,8,0,3,A
+Lyon,Rennes,4,1,6,4,3,3,D
+Rennes,Lyon,8,18,7,9,0,4,A
+Marseille,Paris SG,15,6,11,3,0,3,A
+Rennes,Lille,14,11,3,2,3,1,H
+Rennes,Lens,13,20,15,14,1,1,D
+Monaco,Lens,2,2,11,5,3,1,H
+Lyon,Rennes,13,20,10,10,1,3,A
+Lyon,Nice,20,17,10,13,4,3,H
+Paris SG,Lyon,16,1,10,10,2,3,A
+Paris SG,Nice,11,10,8,4,4,3,H
+Lens,Marseille,15,10,0,4,2,4,A
+Paris SG,Marseille,13,9,7,1,0,2,A
+Rennes,Lille,13,10,7,1,4,2,H
+Lyon,Lens,1,20,3,6,3,0,H
+Monaco,Lyon,2,4,4,2,1,4,A
+Rennes,Marseille,16,15,5,8,4,1,H
+Marseille,Nice,5,20,0,4,3,3,D
+Lens,Marseille,7,19,7,1,3,3,D
+Lens,Lyon,19,14,9,14,3,3,D
+Lyon,Lens,9,2,3,9,4,3,H
+Nice,Paris SG,11,15,13,10,0,1,A
+Rennes,Monaco,2,8,8,1,3,3,D
+Lille,Rennes,3,6,11,11,0,0,D
+Rennes,Paris SG,18,16,1,12,3,4,A
+Nice,Lens,8,14,8,1,1,2,A
+Paris SG,Lyon,7,16,6,0,1,4,A
+Marseille,Lyon,18,19,8,13,2,3,A
+Marseille,Lyon,15,4,9,7,4,4,D
+Nice,Lens,5,5,8,8,1,1,D
+Lens,Paris SG,2,6,2,4,4,0,H
+Nice,Rennes,20,1,1,10,3,4,A
+Rennes,Lille,13,15,5,15,1,3,A
+Rennes,Monaco,14,18,0,8,4,0,H
+Lyon,Monaco,12,20,1,13,2,0,H
+Lille,Monaco,13,1,4,9,0,4,A
+Monaco,Lyon,11,4,11,3,2,3,A
+Lyon,Paris SG,2,11,3,13,0,2,A
+Monaco,Marseille,8,19,4,13,0,1,A
+Lille,Monaco,9,16,7,7,4,0,H
+Marseille,Lens,19,18,8,15,1,1,D
+Paris SG,Rennes,6,3,4,6,3,1,H
+Nice,Lyon,10,8,12,11,0,3,A
+Rennes,Lens,12,11,12,10,4,4,D
+Lille,Rennes,14,10,11,6,1,2,A
+Marseille,Monaco,17,2,4,12,0,1,A
+Nice,Lille,20,1,14,2,3,3,D
+Marseille,Lyon,20,12,4,13,4,4,D
+Paris SG,Marseille,13,18,2,9,3,0,H
+Marseille,Lille,19,2,10,5,4,2,H
+Nice,Monaco,15,6,13,11,2,0,H
+Lyon,Paris SG,19,3,10,11,3,2,H
+Marseille,Rennes,6,12,6,8,2,3,A
+Lens,Monaco,8,19,12,14,1,1,D
+Lille,Lyon,20,4,9,3,1,2,A
+Paris SG,Lille,4,20,12,9,4,3,H
+Monaco,Lille,20,8,2,11,1,0,H
+Marseille,Paris SG,13,20,8,7,2,2,D
+Lyon,Rennes,12,7,8,13,3,3,D
+Paris SG,Nice,1,10,14,12,3,2,H
+Lyon,Lens,7,13,13,7,3,2,H
+Paris SG,Rennes,17,3,10,7,4,3,H
+Lyon,Marseille,8,19,9,9,2,3,A
+Monaco,Lens,4,15,1,2,4,0,H
+Lens,Lille,18,18,15,8,3,3,D
+Lens,Monaco,2,15,1,3,0,1,A
+Monaco,Paris SG,2,3,10,11,3,1,H
+Lyon,Lens,20,8,9,1,4,1,H
+Rennes,Lille,2,1,6,4,3,1,H
+Paris SG,Rennes,12,11,13,6,3,4,A
+Lyon,Lille,10,18,7,6,1,3,A
+Lille,Paris SG,6,5,0,8,3,3,D
+Lille,Paris SG,3,7,11,0,4,2,H
+Paris SG,Marseille,12,16,3,5,3,0,H
+Lens,Rennes,3,12,7,1,3,1,H
+Lyon,Rennes,14,4,9,7,1,2,A
+Rennes,Lyon,19,14,1,12,1,1,D
+Lyon,Nice,18,8,10,13,2,0,H
+Paris SG,Marseille,12,13,12,1,2,4,A
+Marseille,Lille,8,13,8,0,2,3,A
+Monaco,Nice,20,3,6,12,2,4,A
+Monaco,Lens,19,13,4,12,4,1,H
+Paris SG,Lens,13,15,10,12,4,0,H
+Nice,Lens,11,17,10,0,3,0,H
+Lille,Rennes,6,20,7,9,1,3,A
+Rennes,Lens,8,6,15,0,2,3,A
+Lens,Marseille,1,13,5,3,3,0,H
+Rennes,Nice,14,6,14,10,4,3,H
+Monaco,Marseille,8,16,15,10,0,0,D
+Paris SG,Lyon,13,9,3,14,1,4,A
+Lille,Nice,3,3,14,1,0,2,A
+Monaco,Lens,19,12,0,0,4,0,H
+Lens,Paris SG,16,9,8,7,1,2,A
+Lyon,Nice,6,9,12,12,4,3,H
+Marseille,Nice,1,18,2,12,2,1,H
+Lens,Lyon,17,16,14,9,2,4,A
+Marseille,Paris SG,6,20,2,14,3,4,A
+Lille,Rennes,2,20,13,1,0,0,D
+Nice,Paris SG,12,11,7,6,2,0,H
+Paris SG,Lens,12,6,11,2,1,4,A
+Monaco,Lyon,5,15,0,2,0,4,A
+Lyon,Marseille,1,4,12,14,4,0,H
+Nice,Monaco,4,18,11,0,1,4,A
+Monaco,Nice,2,20,1,0,2,4,A
+Lyon,Rennes,14,6,11,3,4,4,D
+Nice,Lille,10,2,1,4,4,0,H
+Lyon,Lille,18,19,3,13,0,3,A
+Lyon,Nice,18,9,11,9,3,4,A
+Lyon,Paris SG,5,16,0,3,3,4,A
+Lens,Lille,15,3,7,6,4,1,H
+Marseille,Lens,8,2,7,6,1,4,A
+Monaco,Lens,9,15,4,14,3,0,H
+Paris SG,Lyon,20,18,10,8,2,4,A
+Lens,Monaco,11,11,1,8,2,4,A
+Lyon,Rennes,18,9,11,0,4,4,D
+Nice,Paris SG,1,4,1,13,1,1,D
+Lille,Lyon,19,1,4,3,2,4,A
+Marseille,Monaco,2,8,6,2,1,2,A
+Lyon,Nice,10,1,4,9,1,0,H
+Nice,Rennes,16,18,12,14,2,4,A
+Paris SG,Lens,11,16,15,3,4,1,H
+Monaco,Nice,9,9,12,7,3,4,A
+Lens,Nice,13,3,8,12,3,1,H
+Paris SG,Lille,7,16,7,1,2,3,A
+Rennes,Marseille,16,13,9,3,4,4,D
+Monaco,Lyon,12,14,12,12,2,2,D
+Lille,Nice,12,9,15,13,2,4,A
+Monaco,Rennes,19,15,12,2,0,3,A
+Marseille,Nice,10,4,4,1,3,0,H
+Lyon,Marseille,1,16,7,0,4,1,H
+Lyon,Paris SG,20,5,12,13,2,2,D
+Lyon,Rennes,7,15,8,6,4,4,D
+Monaco,Lens,13,19,12,14,0,2,A
+Lille,Monaco,3,2,1,13,4,1,H
+Nice,Lille,4,4,13,4,2,0,H
+Marseille,Lens,15,19,14,6,1,4,A
+Nice,Paris SG,18,12,6,5,3,2,H
+Monaco,Rennes,8,15,14,4,2,0,H
+Paris SG,Monaco,4,10,12,10,3,1,H
+Nice,Lille,3,8,12,6,4,3,H
+Monaco,Lens,15,14,5,0,4,2,H
+Paris SG,Marseille,5,9,0,9,0,0,D
+Lens,Rennes,11,15,1,5,2,0,H
+Marseille,Lens,17,6,12,14,3,1,H
+Lyon,Paris SG,3,8,15,2,0,3,A
+Lens,Nice,1,4,0,9,0,0,D
+Paris SG,Lille,8,10,13,2,4,4,D
+Marseille,Nice,13,1,13,4,4,1,H
+Marseille,Monaco,8,3,7,11,4,0,H
+Lens,Nice,2,20,12,2,2,2,D
+Marseille,Paris SG,3,16,2,9,4,0,H
+Lyon,Nice,2,20,2,2,0,2,A
+Rennes,Paris SG,3,5,0,6,1,4,A
+Rennes,Lens,3,13,3,8,3,3,D
+Lille,Monaco,11,13,0,2,4,2,H
+Lyon,Marseille,16,3,10,0,4,0,H
+Nice,Lyon,5,17,1,2,4,3,H
+Rennes,Lyon,5,20,13,15,2,0,H
+Paris SG,Monaco,16,14,8,10,1,3,A
+Lyon,Rennes,12,3,3,13,0,2,A
+Nice,Rennes,1,19,5,5,2,4,A
+Lille,Monaco,1,9,8,12,2,2,D
+Marseille,Lyon,20,8,14,4,1,4,A
+Marseille,Nice,13,7,3,11,4,4,D
+Nice,Lens,7,3,13,3,1,4,A
+Lille,Lens,2,13,5,4,2,1,H
+Lille,Lens,11,16,6,12,4,1,H
+Lyon,Nice,1,12,11,3,2,3,A
+Nice,Lens,11,12,10,7,1,1,D
+Lille,Monaco,6,15,15,4,3,4,A
+Monaco,Marseille,11,12,12,13,1,1,D
+Paris SG,Lyon,3,15,15,6,3,2,H
+Lyon,Nice,17,12,5,12,0,1,A
+Lyon,Paris SG,9,13,6,10,4,3,H
+Lille,Rennes,2,10,8,1,3,4,A
+Nice,Rennes,14,10,3,14,1,0,H
+Paris SG,Lens,13,14,0,0,0,1,A
+Paris SG,Lens,19,19,0,8,3,3,D
+Lille,Lyon,6,17,3,12,2,0,H
+Rennes,Paris SG,16,15,15,11,3,3,D
+Lille,Paris SG,4,11,12,0,2,3,A
+Nice,Lille,5,11,0,15,1,2,A
+Lens,Lille,15,7,8,6,1,1,D
+Lille,Rennes,4,11,14,5,3,2,H
+Paris SG,Lens,16,7,10,10,0,0,D
+Marseille,Lille,16,20,9,10,3,0,H
+Lille,Marseille,4,2,8,15,0,3,A
+Lyon,Rennes,20,11,1,8,1,2,A
+Marseille,Monaco,5,3,1,6,4,4,D
+Lens,Lille,4,17,3,12,0,1,A
+Monaco,Lens,8,20,5,6,0,0,D
+Lens,Marseille,13,2,6,15,3,1,H
+Marseille,Paris SG,17,11,8,5,3,0,H
+Nice,Rennes,11,19,15,4,2,0,H
+Lille,Monaco,8,1,13,13,2,2,D
+Lens,Rennes,12,15,14,4,1,1,D
+Lyon,Nice,1,6,3,11,4,4,D
+Marseille,Lyon,16,7,13,1,1,1,D
+Lille,Rennes,16,9,6,3,3,4,A
+Paris SG,Nice,8,11,13,12,1,3,A
+Monaco,Lens,10,2,2,9,3,0,H
+Monaco,Lyon,19,20,10,15,2,2,D
+Monaco,Rennes,3,16,10,8,3,4,A
+Lens,Rennes,19,10,7,2,2,0,H
+Rennes,Lyon,11,5,3,15,2,2,D
+Rennes,Marseille,5,8,11,14,2,4,A
+Lille,Marseille,7,9,13,4,1,3,A
+Marseille,Lille,3,18,15,12,3,3,D
+Rennes,Lille,18,14,6,0,2,1,H
+Lille,Nice,12,1,0,2,0,2,A
+Lille,Rennes,15,15,1,11,3,2,H
+Nice,Rennes,18,20,10,13,0,0,D
+Paris SG,Monaco,7,2,1,6,1,1,D
+Lille,Nice,11,5,9,14,3,3,D
+Nice,Lens,5,12,13,7,4,1,H
+Paris SG,Nice,5,18,4,7,0,0,D
+Marseille,Nice,14,3,10,7,4,1,H
+Rennes,Lyon,8,7,11,15,2,2,D
+Nice,Rennes,14,11,15,5,2,1,H
+Lens,Rennes,6,15,13,12,4,3,H
+Lille,Rennes,18,7,8,13,2,0,H
+Lyon,Lens,6,6,14,12,4,2,H
+Paris SG,Lens,20,16,0,10,1,3,A
+Lens,Lyon,13,5,2,8,2,2,D
+Lyon,Marseille,8,13,14,12,4,4,D
+Marseille,Paris SG,6,16,11,12,1,1,D
+Nice,Lyon,7,19,9,6,0,3,A
+Nice,Monaco,13,18,6,9,4,2,H
+Nice,Marseille,1,13,7,8,2,2,D
+Lille,Rennes,16,10,10,7,0,3,A
+Monaco,Lille,18,4,15,3,4,3,H
+Nice,Paris SG,13,12,7,2,4,3,H
+Lens,Lyon,2,17,2,12,1,4,A
+Rennes,Lens,11,8,14,12,1,4,A
+Paris SG,Lille,3,12,7,1,4,0,H
+Monaco,Paris SG,16,12,11,11,2,3,A
+Rennes,Lille,12,3,9,9,3,2,H
+Lens,Lille,2,7,7,14,0,4,A
+Lens,Marseille,14,13,15,11,4,4,D
+Rennes,Marseille,19,16,0,15,3,2,H
+Lyon,Lens,9,16,11,3,4,0,H
+Rennes,Nice,2,9,12,7,1,1,D
+Lyon,Nice,17,7,6,5,0,0,D
+Nice,Rennes,7,19,9,8,4,1,H
+Lens,Monaco,14,14,7,1,3,2,H
+Paris SG,Lille,10,12,0,0,1,1,D
+Lens,Lyon,14,6,3,11,3,3,D
+Monaco,Lens,19,3,6,4,4,1,H
+Lyon,Rennes,6,7,11,12,1,0,H
+Nice,Paris SG,15,3,6,8,3,4,A
+Nice,Monaco,14,13,10,6,2,0,H
+Lens,Nice,8,15,15,3,2,4,A
+Lens,Rennes,4,12,3,4,1,3,A
+Rennes,Marseille,13,13,4,14,1,1,D
+Monaco,Nice,12,2,3,2,0,4,A
+Monaco,Nice,10,15,8,6,0,1,A
+Lille,Marseille,11,19,2,3,4,2,H
