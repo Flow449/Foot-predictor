@@ -1,30 +1,26 @@
-import joblib
-import pandas as pd
+import pickle
+import numpy as np
 
-def charger_modele(path='modele_avance.pkl'):
-    return joblib.load(path)
-
-def preparer_features(home_rank, away_rank, home_form, away_form):
-    return pd.DataFrame([{
-        "home_rank": home_rank,
-        "away_rank": away_rank,
-        "home_form": home_form,
-        "away_form": away_form
-    }])
+def charger_modele(path="models/modele.pkl"):
+    with open(path, "rb") as f:
+        return pickle.load(f)
 
 def predire_resultat(modele, home_rank, away_rank, home_form, away_form):
-    features = preparer_features(home_rank, away_rank, home_form, away_form)
-    prediction = modele.predict(features)
-    return prediction[0]
+    features = [[home_rank, away_rank, home_form, away_form]]
+    prediction = modele.predict(features)[0]
+    if prediction == 'H':
+        return "Victoire domicile"
+    elif prediction == 'A':
+        return "Victoire extérieur"
+    else:
+        return "Match nul"
 
 def predire_proba(modele, home_rank, away_rank, home_form, away_form):
-    features = preparer_features(home_rank, away_rank, home_form, away_form)
+    features = [[home_rank, away_rank, home_form, away_form]]
     proba = modele.predict_proba(features)[0]
-    classes = modele.classes_
-    return dict(zip(classes, proba))
+    return {"H": proba[0], "D": proba[1], "A": proba[2]}
 
 def predire_score(home_form, away_form):
-    # Estimation simple du score basé sur la forme
-    home_goals = round(1 + (home_form * 0.3))
-    away_goals = round(1 + (away_form * 0.3))
-    return min(home_goals, 5), min(away_goals, 5)
+    home_score = np.clip(int(home_form / 1.5), 0, 4)
+    away_score = np.clip(int(away_form / 1.5), 0, 4)
+    return home_score, away_score
