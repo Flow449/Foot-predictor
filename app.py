@@ -1,15 +1,17 @@
 import streamlit as st
-from modeles import charger_modele, predire_resultat
+from api import get_matchs_a_venir
 
-st.title("Prédiction de Matchs de Football")
-st.write("Entrez les statistiques pour obtenir une prédiction.")
+st.set_page_config(page_title="Prédiction Football", layout="centered")
+st.title("Matchs à venir - Ligue 1")
 
-home_team = st.text_input("Équipe à domicile")
-away_team = st.text_input("Équipe à l'extérieur")
-home_goals = st.number_input("Buts domicile", min_value=0, step=1)
-away_goals = st.number_input("Buts extérieur", min_value=0, step=1)
+# Affichage des prochains matchs
+matchs = get_matchs_a_venir()
 
-if st.button("Prédire"):
-    modele = charger_modele()
-    prediction = predire_resultat(modele, home_team, away_team, home_goals, away_goals)
-    st.success(f"Résultat prédit : {prediction}")
+if matchs:
+    for match in matchs:
+        home = match['teams']['home']['name']
+        away = match['teams']['away']['name']
+        date = match['fixture']['date'].split("T")[0]
+        st.markdown(f"**{home}** vs **{away}** — *{date}*")
+else:
+    st.warning("Aucun match trouvé ou problème avec l'API.")
