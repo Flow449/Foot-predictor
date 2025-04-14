@@ -1,24 +1,20 @@
-import pickle
+import joblib
 import numpy as np
 
-def charger_modele(path="models/modele.pkl"):
-    with open(path, "rb") as f:
-        return pickle.load(f)
+def charger_modele():
+    chemin = "modeles/modele_rf.joblib"
+    return joblib.load(chemin)
 
 def predire_resultat(modele, home_rank, away_rank, home_form, away_form):
     features = [[home_rank, away_rank, home_form, away_form]]
     prediction = modele.predict(features)[0]
-    if prediction == 'H':
-        return "Victoire domicile"
-    elif prediction == 'A':
-        return "Victoire extérieur"
-    else:
-        return "Match nul"
+    return prediction
 
 def predire_proba(modele, home_rank, away_rank, home_form, away_form):
     features = [[home_rank, away_rank, home_form, away_form]]
     proba = modele.predict_proba(features)[0]
-    return {"H": proba[0], "D": proba[1], "A": proba[2]}
+    classes = modele.classes_
+    return dict(zip(classes, proba))
 
 def predire_score(home_form, away_form):
     home_score = np.clip(int(home_form / 1.5), 0, 4)
