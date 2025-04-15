@@ -1,21 +1,42 @@
 import streamlit as st
 from modeles import charger_modele, predire_score
 
-st.title("Prédicteur de Matchs de Football")
+# Charger le modèle une fois
+modele = charger_modele()
 
-# Entrée utilisateur
-home_rank = st.slider("Classement de l'équipe à domicile", 1, 20, 10)
-away_rank = st.slider("Classement de l'équipe à l'extérieur", 1, 20, 10)
-home_form = st.slider("Forme de l'équipe à domicile (sur 5)", 0, 5, 3)
-away_form = st.slider("Forme de l'équipe à l'extérieur (sur 5)", 0, 5, 3)
+# Simuler les données de classement et forme (à remplacer par API ou CSV plus tard)
+classement_dict = {
+    "Paris SG": 1,
+    "Marseille": 5,
+    "Lyon": 10,
+    "Nice": 3
+}
 
-if st.button("Prédire le résultat"):
-    modele = charger_modele()
-    prediction = predire_resultat(modele, home_rank, away_rank, home_form, away_form)
-    proba = predire_proba(modele, home_rank, away_rank, home_form, away_form)
+forme_dict = {
+    "Paris SG": 4,
+    "Marseille": 2,
+    "Lyon": 1,
+    "Nice": 3
+}
 
-    st.subheader("Résultat prédit :")
-    st.write(prediction)
+st.title("Prédiction de match de football")
 
-    st.subheader("Probabilités :")
-    st.write(proba)
+# Sélection des équipes
+equipe_dom = st.selectbox("Équipe à domicile", list(classement_dict.keys()))
+equipe_ext = st.selectbox("Équipe à l'extérieur", list(classement_dict.keys()))
+
+# Vérifier que les deux équipes sont différentes
+if equipe_dom == equipe_ext:
+    st.warning("Veuillez choisir deux équipes différentes.")
+else:
+    if st.button("Prédire le résultat"):
+        resultat = predire_score(equipe_dom, equipe_ext, classement_dict, forme_dict, modele)
+        
+        if resultat["resultat"] == "home_win":
+            st.success(f"{equipe_dom} devrait gagner.")
+        elif resultat["resultat"] == "draw":
+            st.info("Match nul prévu.")
+        elif resultat["resultat"] == "away_win":
+            st.success(f"{equipe_ext} devrait gagner.")
+        else:
+            st.error("Résultat inconnu.")
