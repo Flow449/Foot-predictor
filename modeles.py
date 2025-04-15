@@ -1,9 +1,7 @@
-
 import joblib
-import numpy as np
 
 def charger_modele():
-    chemin = "modele.joblib"  # chemin corrigé
+    chemin = "models/modele.joblib"  # chemin vers le modèle dans le dossier models
     return joblib.load(chemin)
 
 def predire_resultat(modele, home_rank, away_rank, home_form, away_form):
