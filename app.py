@@ -1,5 +1,5 @@
 import streamlit as st
-from modeles import charger_modele, predire_resultat, predire_proba
+from models import charger_modele, predire_resultat, predire_proba
 
 st.title("Prédicteur de Matchs de Football")
 
