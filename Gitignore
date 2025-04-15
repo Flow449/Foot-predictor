@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Streamlit specific
+.streamlit/
+
+# Model files (you may track manually)
+*.pkl
+*.joblib
